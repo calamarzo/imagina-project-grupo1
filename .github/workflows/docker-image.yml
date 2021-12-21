@@ -18,5 +18,5 @@ jobs:
         login-server: imaginagrupo1.azurecr.io 
     - name: Build the Docker image
       run: |
-        docker build . --file Dockerfile --tag imaginagrupo1.azurecr.io/imagina-project-v1:$(date +%s)
-        docker push imaginagrupo1.azurecr.io/imagina-project-v1:$(date +%s)
+        docker build . --file Dockerfile --tag imaginagrupo1.azurecr.io/calamarzo/imagina-project-v1:$(date +%s)
+        docker push imaginagrupo1.azurecr.io/calamarzo/imagina-project-v1:$(date +%s)
